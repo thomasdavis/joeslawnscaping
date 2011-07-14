@@ -241,38 +241,50 @@ a:hover { color: #036; }
 }
 
 body {
-	background: #ccc;
+	background: #ebebeb;
 }
 #nav {
 	height: 30px;
 	background: #fff;
 	width: 800px;
 	margin: auto;
+	
+	border: 1px solid #ccc;
+	border-top: none;
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -400px;
 }
 #nav ul {
 	list-style: none;
 }
 #nav ul li {
 	margin-left: 15px;
+	margin-top: 7px;
 	float: left;
 }
 
 .boxed {
-	width: 800px;
+	width: 760px;
+	padding: 20px;
 	margin: auto;
-	margin-top: 20px;
-	min-height: 400px;
+	margin-top: 10px;
+	min-height: 310px;
 	background: #fff;
 	border: 1px solid #ccc;
 }
 #main {
 
-
+	margin-top: 40px;
 }
 
 #main h1 {
 	font-size: 32px;
 	
+}
+#main img {
+	border: 1px solid #ccc;
 }
 h2 {
 	font-size: 22px;
